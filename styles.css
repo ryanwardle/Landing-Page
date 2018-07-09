@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+#main{
+  background-image: url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+}
