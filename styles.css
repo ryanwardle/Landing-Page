@@ -7,6 +7,7 @@
 body{
   font-family: 'Noto Sans', sans-serif;
   color: #EEE;
+  font-size: 17px;
 }
 
 
@@ -31,15 +32,21 @@ body{
 }
 
 #nav-bar ul li a,
-#nav-bar ul li a:hover,
 #nav-bar ul li a:link,
 #nav-bar ul li a:visited,
 #nav-bar ul li a:active{
   color: #EEE;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
 }
 
-#main{
+#nav-bar ul li a:hover{
+  border-bottom: 2px solid #EEE;
+  transition: 1s;
+}
+
+#home{
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -50,4 +57,8 @@ body{
 .title{
   text-align: center;
   padding-top: 150px;
+}
+
+.title h1{
+  font-size: 25px;
 }
