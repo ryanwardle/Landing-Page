@@ -8,6 +8,7 @@ body{
   font-family: 'Noto Sans', sans-serif;
   color: #EEE;
   font-size: 17px;
+  font-weight: 300;
 }
 
 
@@ -47,7 +48,7 @@ body{
 }
 
 #home{
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/266755/pexels-photo-266755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -56,9 +57,43 @@ body{
 
 .title{
   text-align: center;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .title h1{
-  font-size: 25px;
+  font-size: 45px;
+}
+
+#our-story{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*#our-story{
+  color: #222;
+  background-color: #DDD;
+}*/
+
+section h2{
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.description p{
+  text-align: center;
+  width: 40%;
+  margin-top: 10%;
+  margin-right: 5%;
 }
