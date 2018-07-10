@@ -5,17 +5,49 @@
 }
 
 body{
+  font-family: 'Noto Sans', sans-serif;
+  color: #EEE;
+}
 
+
+
+#header-img{
+  width: 50px;
+  height: auto;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#nav-bar{
+  float: right;
+}
+
+#nav-bar ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+#nav-bar ul li a,
+#nav-bar ul li a:hover,
+#nav-bar ul li a:link,
+#nav-bar ul li a:visited,
+#nav-bar ul li a:active{
+  color: #EEE;
+  text-decoration: none;
 }
 
 #main{
-  background-image: url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-h1{
+.title{
   text-align: center;
+  padding-top: 150px;
 }
