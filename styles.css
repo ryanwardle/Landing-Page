@@ -9,6 +9,7 @@ body{
   color: #EEE;
   font-size: 17px;
   font-weight: 300;
+  line-height: 150%;
 }
 
 
@@ -18,7 +19,7 @@ body{
   height: auto;
   float: left;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 
@@ -31,7 +32,7 @@ body{
   list-style: none;
   display: inline-block;
   margin-right: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 #nav-bar ul li a,
@@ -68,6 +69,9 @@ body{
   font-size: 45px;
 }
 
+.title p{
+  margin-top: 2%;
+}
 
 
 /*OUR STORY SECTION**************/
@@ -82,7 +86,7 @@ body{
 section h2{
   align-items: center;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
   font-size: 40px;
 }
 
@@ -103,8 +107,8 @@ section h2{
 
 /*PRICING SECTION***************/
 #pricing{
-  color: #333;
-  background-color: #AAA;
+  color: #474747 /*#EEE*/;
+  background-color: #DCDCDC /*#999*/;
 }
 
 .pricing-column{
@@ -112,12 +116,12 @@ section h2{
   justify-content: center;
 }
 
-.price-box{
+.pricing-box{
   flex-basis: 20%;
   text-align: center;
-  border: 1px #222 solid;
+  border: 1px #333 solid;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .box-1{
@@ -128,8 +132,34 @@ section h2{
   margin-right: 15%;
 }
 
+.pricing-box i{
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.pricing-box h3,
+.pricing-box p{
+  padding: 10px;
+}
+
+/*TRYING TO GET PRICE AND AMOUNT TO PUSH TO BOTTOM OF DIV*/
+.price-amount{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
 #video-box{
   padding-bottom: 5%;
   display: flex;
   justify-content: center;
+}
+
+
+
+/*CONTACT*************/
+
+#contact{
+  background-color: #E9E9E9;
+  color: #505050;
 }
