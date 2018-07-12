@@ -108,7 +108,7 @@ section h2{
 /*PRICING SECTION***************/
 #pricing{
   color: #666;
-  background-color: #DCDCDC;
+  background-color: #E4E4E4;
 }
 
 .pricing-column{
@@ -117,6 +117,9 @@ section h2{
 }
 
 .pricing-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   flex-basis: 20%;
   text-align: center;
   margin-top: 5%;
@@ -124,6 +127,7 @@ section h2{
   margin-left: 1%;
   margin-right: 1%;
   background-color: #EEE;
+  box-shadow: 0 0 5px 10px rgba(0, 0, 0, .1);
 }
 
 .box-1{
@@ -132,6 +136,10 @@ section h2{
 
 .box-3{
   margin-right: 15%;
+}
+
+.box-2{
+  box-shadow: 0 0 5px 10px rgba(0, 0, 0, .1);
 }
 
 .pricing-box i{
@@ -144,9 +152,13 @@ section h2{
   color: #A1A1A1;
 }
 
+.price-amount{
+  padding-bottom: 5%;
+}
+
 .pricing-box h3,
 .price-amount p{
-  color: #666;
+  color: #7F7F7F;
 }
 
 .pricing-box h3,
@@ -154,23 +166,17 @@ section h2{
   padding: 10px;
 }
 
-/*TRYING TO GET PRICE AND AMOUNT TO PUSH TO BOTTOM OF DIV*/
-.price-amount{
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-}
-
-/*.price-amount p{
-  color: #474747;
-}*/
-
 #video-box{
   padding-bottom: 5%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
+#video-box p{
+  margin: 2%;
+}
 
 
 /*CONTACT*************/
