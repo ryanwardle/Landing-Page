@@ -107,8 +107,8 @@ section h2{
 
 /*PRICING SECTION***************/
 #pricing{
-  color: #474747 /*#EEE*/;
-  background-color: #DCDCDC /*#999*/;
+  color: #666;
+  background-color: #DCDCDC;
 }
 
 .pricing-column{
@@ -119,9 +119,11 @@ section h2{
 .pricing-box{
   flex-basis: 20%;
   text-align: center;
-  border: 1px #333 solid;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #EEE;
 }
 
 .box-1{
@@ -135,6 +137,16 @@ section h2{
 .pricing-box i{
   font-size: 40px;
   padding-top: 10px;
+  color: #A1A1A1;
+}
+
+.pricing-box p{
+  color: #A1A1A1;
+}
+
+.pricing-box h3,
+.price-amount p{
+  color: #666;
 }
 
 .pricing-box h3,
@@ -148,6 +160,10 @@ section h2{
   justify-content: center;
   align-content: flex-end;
 }
+
+/*.price-amount p{
+  color: #474747;
+}*/
 
 #video-box{
   padding-bottom: 5%;
