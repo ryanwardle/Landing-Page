@@ -11,6 +11,7 @@
   <title>Van Delay Coffee</title>
 </head>
 <body>
+
   <header id="header">
     <img id="header-img" src="http://getdrawings.com/images/coffee-cup-drawing-2.png" alt="Coffee cup logo">
     <nav id="nav-bar">
@@ -18,10 +19,12 @@
         <li class="nav-link"><a href="">Home</a></li>
         <li class="nav-link"><a href="">Our Story</a></li>
         <li class="nav-link"><a href="">Pricing</a></li>
-        <li class="nav-link"><a href="">Contact</a></li>
+        <li class="nav-link"><a href="">Place Order</a></li>
       </ul>
     </nav>
   </header>
+
+
   <main id="main">
     <section id="home">
       <div class="title">
@@ -82,17 +85,47 @@
       <div id="video-box">
         <p>Here are some tips for a better home brewing coffee experience!</p>
         <iframe id="video" src="https://www.youtube.com/embed/g2OurULdW6U" width="40%" height="400px;">
-
         </iframe>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <form id="form" action="">
-
+    <section id="place-order">
+      <h2>Place Order</h2>
+      <p>Fill out the form below to place an order with us.</p>
+      <form id="form">
+        <div class="form-item">
+          <label id="name-label">First Name</label>
+          <input type="text" id="first-name" placeholder="First Name">
+        </div>
+        <div class="form-item">
+          <label id="name-label">Last Name</label>
+          <input type="text" id="last-name" placeholder="Last Name">
+        </div>
+        <div class="form-item">
+          <label id="email-label">Email</label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="form-item">
+          <label id="number-label">Each bag contains one pound of coffee beans.</label>
+          <input id="number" type="number" placeholder="Number of Bags">
+        </div>
+        <div class="form-item">
+          <button type="submit" name="button">Submit</button>
+        </div>
       </form>
     </section>
+
+    <footer id="footer">
+      <div class="copyright">
+        <p>Copyright (c) 2018 Van Delay Coffee</p>
+      </div>
+      <div class="dev-info">
+        <ul>
+          <li>Designed and coded by Ryan Wardle</li>
+          <li>View my profile on <a href="">Github<i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </footer>
 
   </main>
 </body>

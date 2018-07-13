@@ -153,7 +153,11 @@ section h2{
 }
 
 .price-amount{
-  padding-bottom: 5%;
+  padding-bottom: 7%;
+}
+
+.price-amount p{
+  font-size: 1.2em;
 }
 
 .pricing-box h3,
@@ -179,9 +183,72 @@ section h2{
 }
 
 
-/*CONTACT*************/
+/*PLACE ORDER*************/
 
-#contact{
+#place-order{
   background-color: #E9E9E9;
   color: #505050;
+}
+
+#place-order p{
+  text-align: center;
+  margin: 2%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 3%;
+  justify-content: flex-start;
+  border: 1px solid #505050;
+}
+
+.form-item{
+  margin: 1%;
+}
+
+input{
+  margin-left: 1%;
+  text-align: center;
+}
+
+
+/*FOOTER************/
+
+
+footer{
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: #E4E4E4;
+  position:absolute;
+  width:100%;
+  color: #7F7F7F;
+  font-size: .7em
+}
+
+footer p{
+  float: left;
+  margin-left: 5px;
+}
+
+footer ul{
+  float: right;
+  margin-right: 5px;
+}
+
+footer ul li{
+  margin-bottom: 1%;
+  list-style: none;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #666;
+}
+
+footer ul li i{
+  margin: 1%;
 }
