@@ -65,7 +65,7 @@
           <i class="fas fa-calendar-alt"></i>
           <h3>Coffee of the Month</h3>
           <p>Similar to our seasonal coffee, we also provide a coffee of the month. This allow us to provide fresh,
-            new flavors to our customers on a frequent basis. This month we have Classic Kona. Classic Kona was brewed in,
+            new flavors to our customers on a frequent basis. This month we have Classic Kona. Classic Kona was grown in,
           you guessed it, Kona, Hawaii. It is a medium roast coffee with hints of walnut and cherry.</p>
           <div class="price-amount">
             <p>$14.99 / lb</p>
@@ -75,8 +75,8 @@
           <i class="fas fa-coffee"></i>
           <h3>Wake Up</h3>
           <p>Our Wake Up blend is always a bold, dark roast coffee to help energize you for your day.
-          Our Wake Up blends change every 2-3 months, we currently have El Terrible, farmed in Oaxaca, Mexico.
-        El Terrible's taste profile includes hints of toasted almonds, and nutmeg.</p>
+          Our Wake Up blends change every 2-3 months, we currently have Canelo, farmed in Oaxaca, Mexico.
+        Canelo's taste profile includes hints of cinnamon, and toasted almonds.</p>
           <div class="price-amount">
             <p>$13.49 / lb</p>
           </div>
@@ -92,7 +92,7 @@
     <section id="place-order">
       <h2>Place Order</h2>
       <p>Fill out the form below to place an order with us.</p>
-      <form id="form">
+      <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
         <div class="form-item">
           <label id="name-label">First Name</label>
           <input type="text" id="first-name" placeholder="First Name">
@@ -103,7 +103,7 @@
         </div>
         <div class="form-item">
           <label id="email-label">Email</label>
-          <input type="email" id="email" placeholder="Email">
+          <input type="email" id="email" placeholder="Email@example.com">
         </div>
         <div class="form-item">
           <label id="number-label">Each bag contains one pound of coffee beans.</label>
@@ -111,7 +111,7 @@
         </div>
         <div class="button-box">
           <div class="form-item">
-            <button type="submit" name="button">Submit</button>
+            <input id="submit" type="submit" value="Submit" >
           </div>
         </div>
       </form>
