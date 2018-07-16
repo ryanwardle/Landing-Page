@@ -76,11 +76,12 @@ body{
 
 /*OUR STORY SECTION**************/
 #our-story{
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/997719/pexels-photo-997719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+  color: #F6F6F6;
 }
 
 section h2{
@@ -93,14 +94,13 @@ section h2{
 .description{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .description p{
   text-align: center;
-  margin-top: 3%;
-  width: 30%;
-  margin-right: 5%;
+  margin-top: 5%;
+  width: 80%;
 }
 
 
