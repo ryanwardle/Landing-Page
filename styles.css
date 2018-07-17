@@ -50,6 +50,17 @@ body{
   transition: 1s;
 }
 
+.fixed-nav header{
+  position: fixed;
+  width: 100%;
+  transition: 1s;
+  background-color: #F6F6F6;
+}
+
+.fixed-nav header ul li{
+  color: #222;
+}
+
 
 /*HOME SECTION*********************/
 #home{
@@ -100,7 +111,8 @@ section h2{
 .description p{
   text-align: center;
   margin-top: 5%;
-  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
@@ -199,7 +211,11 @@ form{
   margin-right: 30%;
   padding-top: 1%;
   justify-content: flex-start;
-  border: 1px solid #505050;
+  /*border: 1px solid #505050;*/
+}
+
+label{
+  margin-left: 2%;
 }
 
 .form-item{
