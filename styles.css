@@ -15,11 +15,11 @@ body{
 
 /*LOGO****************/
 #header-img{
-  width: 50px;
+  display: none;
+  width: 45px;
   height: auto;
   float: left;
-  margin-left: 30px;
-  margin-top: 25px;
+  margin: 1%;
 }
 
 
@@ -54,11 +54,26 @@ body{
   position: fixed;
   width: 100%;
   transition: 1s;
-  background-color: #F6F6F6;
+  background-color: #DDD;
 }
 
-.fixed-nav header ul li{
-  color: #222;
+.fixed-nav #header-img{
+  display: block;
+}
+
+.fixed-nav #nav-bar ul li a,
+.fixed-nav #nav-bar ul li a:link,
+.fixed-nav #nav-bar ul li a:visited,
+.fixed-nav #nav-bar ul li a:active{
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+
+.fixed-nav #nav-bar ul li a:hover{
+  border-bottom: 2px solid #333;
+  transition: 1s;
 }
 
 
