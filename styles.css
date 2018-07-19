@@ -226,7 +226,6 @@ form{
   margin-right: 30%;
   padding-top: 1%;
   justify-content: flex-start;
-  /*border: 1px solid #505050;*/
 }
 
 label{
@@ -237,9 +236,31 @@ label{
   margin: 1%;
 }
 
+#beans,
+#comments{
+  margin-top: 5%;
+}
+
+#comments{
+  text-align: center;
+  display: flex;
+}
+
 #submit{
   margin-left: 1%;
+  width: 200px;
+  height: 30px;
   text-align: center;
+  transition: 1s;
+}
+
+#submit:hover,
+#submit:active,
+#submit:link,
+#submit:visited{
+  border: none;
+  background-color: #CCC;
+  transition: 1s;
 }
 
 .button-box{
