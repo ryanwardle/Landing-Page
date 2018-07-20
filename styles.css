@@ -10,6 +10,7 @@ body{
   font-size: 17px;
   font-weight: 300;
   line-height: 150%;
+  overflow-x: hidden;
 }
 
 
@@ -242,8 +243,8 @@ label{
 }
 
 #comments{
-  text-align: center;
   display: flex;
+  text-align: center;
 }
 
 #submit{
