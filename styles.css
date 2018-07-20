@@ -51,6 +51,8 @@ body{
   transition: 1s;
 }
 
+
+/*STICKY NAV*/
 .fixed-nav header{
   position: fixed;
   width: 100%;
@@ -77,6 +79,12 @@ body{
   transition: 1s;
 }
 
+
+/*MOBILE NAV ************/
+
+.mobile-nav-icon{
+  display: none;
+}
 
 /*HOME SECTION*********************/
 #home{
