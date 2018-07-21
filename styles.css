@@ -280,7 +280,7 @@ label{
 }
 
 .form-spacer{
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 input{
@@ -291,7 +291,7 @@ input{
 
 
 footer{
-  padding-top: 3%;
+  padding-top: 4%;
   padding-bottom: 2%;
   background-color: #E4E4E4;
   position:absolute;
