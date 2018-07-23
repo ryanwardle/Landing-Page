@@ -211,6 +211,7 @@ section h2{
 }
 
 #video-box p{
+  text-align: center;
   margin: 2%;
 }
 
@@ -228,63 +229,46 @@ section h2{
 }
 
 form{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  flex-basis: 20%;
-  margin-left: 30%;
-  margin-right: 30%;
-  padding-top: 1%;
-  justify-content: flex-start;
-}
-
-label{
-  margin-left: 2%;
-}
-
-.form-item{
-  margin: 1%;
-}
-
-#beans,
-#comments{
-  margin-top: 5%;
-}
-
-#comments{
-  display: flex;
-  text-align: center;
-}
-
-#submit{
-  margin-left: 1%;
-  width: 200px;
-  height: 30px;
-  text-align: center;
-  transition: 1s;
-}
-
-#submit:hover,
-#submit:active,
-#submit:link,
-#submit:visited{
-  border: none;
-  background-color: #CCC;
-  transition: 1s;
-}
-
-.button-box{
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-
-.form-spacer{
-  padding-bottom: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 input{
-  text-align: center;
+  padding: 1%;
+}
+
+input,
+textarea{
+  background-color: #E9E9E9;
+  margin: 0 10%;
+  width: 50%;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  border: 1px solid #616161;
+  border-bottom: none;
+}
+
+input:hover,
+textarea:hover{
+  background-color: #B6B6B6;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+#submit{
+  border-bottom: 1px solid #616161;
+  margin-bottom: 3%;
+  cursor: pointer;
 }
 
 /*FOOTER************/

@@ -1,9 +1,3 @@
-@media only screen and (max-width: 1355px){
-  form{
-    font-size: .8em;
-  }
-}
-
 
 @media only screen and (max-width: 1200px){
   .pricing-column{
@@ -19,6 +13,22 @@
 
 
 @media only screen and (max-width: 768px){
+
+  body{
+    font-size: .95em
+  }
+
+  .title p{
+    margin-top: 5%;
+  }
+
+  section h2{
+    margin-bottom: 3%;
+  }
+
+  #video{
+    width: 80%;
+  }
 
   nav ul{
     display: none;
@@ -38,4 +48,29 @@
   .mobile-nav-icon:active{
     color: #333;
   }
+}
+
+
+@media only screen and (max-width: 500px){
+
+  body{
+    font-size: .9em;
+  }
+}
+
+
+@media only screen and (max-width: 376px){
+
+  .title h1{
+    font-size: 35px;
+  }
+
+  .copyright-icons,
+  .dev-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
 }

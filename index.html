@@ -16,7 +16,7 @@
   <header id="header">
     <img id="header-img" src="http://getdrawings.com/images/coffee-cup-drawing-2.png" alt="Coffee cup logo">
     <nav id="nav-bar">
-      <a class="mobile-nav-icon" href="#"><i class="fas fa-bars"></i></a>
+      <a class="mobile-nav-icon" href="#"><i id="mobile-nav-icon" class="fas fa-bars"></i></a>
       <ul>
         <li class="nav-link"><a href="#home">Home</a></li>
         <li class="nav-link"><a href="#our-story">Our Story</a></li>
@@ -94,57 +94,25 @@
     <section id="place-order">
       <h2>Place Order</h2>
       <p>Fill out the form below to place an order with us.</p>
-      <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
-        <div class="form-item">
-          <label id="first-name-label">First Name:</label>
-          <input type="text" id="first-name" placeholder="First Name">
-        </div>
-        <div class="form-item">
-          <label id="last-name-label">Last Name:</label>
-          <input type="text" id="last-name" placeholder="Last Name">
-        </div>
-        <div class="form-item">
-          <label id="address-label">Shipping Address:</label>
-          <input type="text" id="address" placeholder="555 Main St.">
-        </div>
-        <div class="form-item">
-          <label id="email-label">Email:</label>
-          <input type="email" id="email" placeholder="Email@example.com">
-        </div>
 
-        <div id="beans">
-          <div class="form-item">
-            <label class="pounds" id="pound-label">Each bag contains one pound of coffee beans.</label>
-          </div>
-          <div class="form-item">
-            <label>Seasonal</label>
-            <input id="seasonal-number" type="number" placeholder="Number of Bags">
-          </div>
-          <div class="form-item">
-            <label>Coffee of the Month</label>
-            <input id="month-number" type="number" placeholder="Number of Bags">
-          </div>
-          <div class="form-item">
-            <label>Wake up</label>
-            <input id="wake-number" type="number" placeholder="Number of Bags">
-          </div>
-        </div>
+    <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
 
-      <div id="comments">
-        <div class="form-item">
-          <label>Feel free to ask us any questions or leave your comments below.</label>
-          <textarea rows="8" cols="40"></textarea>
-        </div>
-      </div>
+      <input id="name" type="text" placeholder="NAME">
 
-        <div class="button-box">
-          <div class="form-item">
-            <input id="submit" type="submit" value="Submit" >
-          </div>
-        </div>
-      </form>
-      <div class="form-spacer">
-      </div>
+      <input id="address" type="text" placeholder="SHIPPING ADDRESS">
+      <input id="address-line2" type="text" placeholder="ADDRESS LINE 2">
+
+      <input id="email" type="text" placeholder="EMAIL">
+
+      <input type="text" placeholder="BAGS OF SEASONAL">
+      <input type="text" placeholder="BAGS OF MONTHLY">
+      <input type="text" placeholder="BAGS OF WAKE UP">
+
+      <textarea name="name" rows="8" cols="80" placeholder="COMMENTS"></textarea>
+
+      <input id="submit" type="submit" value="Submit">
+    </form>
+
     </section>
 
     <footer id="footer">
