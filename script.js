@@ -27,9 +27,11 @@ mobileIcon.addEventListener('click', function() {
     if(mobileIcon.classList.contains('fa-bars')){
       mobileIcon.classList.remove('fa-bars');
       mobileIcon.classList.add('fa-times');
+      document.getElementById('nav-list').style.display = 'block';
     }else if (mobileIcon.classList.contains('fa-times')) {
       mobileIcon.classList.remove('fa-times');
       mobileIcon.classList.add('fa-bars');
+      document.getElementById('nav-list').style.display = 'none';
     }
 
 });

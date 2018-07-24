@@ -86,6 +86,7 @@ body{
   display: none;
 }
 
+
 /*HOME SECTION*********************/
 #home{
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/266755/pexels-photo-266755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -241,15 +242,12 @@ form{
           align-items: center;
 }
 
-input{
-  padding: 1%;
-}
-
 input,
 textarea{
   background-color: #E9E9E9;
   margin: 0 10%;
   width: 50%;
+  padding: 1%;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
@@ -263,6 +261,11 @@ textarea:hover{
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
+}
+
+textarea{
+  font-size: .8em;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #submit{
