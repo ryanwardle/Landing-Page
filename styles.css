@@ -51,6 +51,9 @@ body{
   transition: 1s;
 }
 
+#nav-bar a i{
+  color: #EEE;
+}
 
 /*STICKY NAV*/
 .fixed-nav header{

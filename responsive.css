@@ -32,12 +32,12 @@
 
   nav ul{
     display: none;
-    background-color: #8B8B8B;
+    background-color: transparent;
     transition: 1s;
   }
 
-  nav ul li{
-    display: inline-block;
+  #nav-bar ul li{
+    display: block;
   }
 
   .mobile-nav-icon{
