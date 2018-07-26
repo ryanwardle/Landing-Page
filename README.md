@@ -9,5 +9,3 @@ This landing page is for a fictitious company called Van Delay Coffee.
 
 Did not design mobile first and this is going to cause the process of making
 responsive to take longer. Next project I build needs to be designed mobile first.
-
-https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?cs=srgb&dl=holz-herz-bohnen-867470.jpg&fm=jpg 
