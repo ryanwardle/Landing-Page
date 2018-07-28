@@ -55,3 +55,14 @@ $(function() {
     }
   });
 });
+
+
+
+
+//SUBMIT BUTTON
+
+const submit = document.getElementById('submit');
+const email = document.getElementById('email').value;
+submit.addEventListener('click', function(){
+  alert(`Thank you. We have sent a confirmation email to ${email}`);
+});
