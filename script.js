@@ -81,7 +81,7 @@ function validateForm(){
     alert(`You must input a valid address`);
   }else if (email === '' || !email.match(/[@]/)) {
     alert(`You must input a valid email address`);
-  }else if ((bag1 === 0 || bag1 === '') && (bag2 === 0 || bag2 === '') && (bag3 === 0 || bag3 === '')) {
+  }else if ((bag1 == 0 || bag1 === '') && (bag2 == 0 || bag2 === '') && (bag3 == 0 || bag3 === '')) {
     alert(`You must order at least one bag of coffee`);
   }else{
     alert(`Thank you. We have sent a confirmation email to ${email}`);
